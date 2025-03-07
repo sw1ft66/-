@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поздравление для моей девочки</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fce4ec;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #greeting {
+      font-size: 30px;
+      color: #D81B60;
+      margin-bottom: 20px;
+      font-family: 'Cursive', sans-serif;
+      animation: fadeIn 3s ease-out;
+    }
+    #startButton {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #D81B60;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+    #startButton:hover {
+      background-color: #C2185B;
+    }
+    #heart {
+      font-size: 100px;
+      color: #D81B60;
+      animation: heartAnimation 2s infinite;
+      display: none;
+      margin-bottom: 20px;
+    }
+    #congratulationText {
+      font-size: 20px;
+      color: #880E4F;
+      margin-top: 20px;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+    #photo {
+      margin-top: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    #photo2 {
+      margin-top: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    /* Анимации */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes heartAnimation {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.5); }
+      100% { transform: scale(1); }
+    }
+
+    .word {
+      display: inline-block;
+      opacity: 0;
+      animation: showWord 1s forwards;
+    }
+
+    @keyframes showWord {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="greeting">Для моей маленькой девочки</div>
+    <button id="startButton">Начать</button>
+    <img id="photo" src="5357229793860513825.jpg" alt="Фото" />
+  </div>
+
+  <div id="animationContainer" style="display: none;">
+    <!-- Сердце теперь над текстом -->
+    <div id="heart">❤️</div>
+    <div id="congratulationText">
+      <!-- Текст поздравления разбит на слова -->
+      <span class="word">Дорогая</span> 
+      <span class="word">моя</span>
+      <span class="word">малышка,</span>
+      <span class="word">поздравляю</span>
+      <span class="word">тебя</span>
+      <span class="word">с</span>
+      <span class="word">8</span>
+      <span class="word">марта!</span>
+      <span class="word">Желаю</span>
+      <span class="word">тебе</span>
+      <span class="word">всегда</span>
+      <span class="word">оставаться</span>
+      <span class="word">такой</span>
+      <span class="word">красивой,</span>
+      <span class="word">любимой</span>
+      <span class="word">и</span>
+      <span class="word">женственной.</span>
+      <span class="word">Я</span>
+      <span class="word">тебя</span>
+      <span class="word">очень</span>
+      <span class="word">сильно</span>
+      <span class="word">люблю</span>
+      <span class="word">и</span>
+      <span class="word">безумно</span>
+      <span class="word">рад,</span>
+      <span class="word">что</span>
+      <span class="word">у</span>
+      <span class="word">меня</span>
+      <span class="word">есть</span>
+      <span class="word">такая</span>
+      <span class="word">возможность</span>
+      <span class="word">сделать</span>
+      <span class="word">такой</span>
+      <span class="word">маленький</span>
+      <span class="word">подарочек.</span>
+      <span class="word">Если</span>
+      <span class="word">ты</span>
+      <span class="word">видишь</span>
+      <span class="word">этот</span>
+      <span class="word">текст</span>
+      <span class="word">у</span>
+      <span class="word">себя</span>
+      <span class="word">на</span>
+      <span class="word">экране,</span>
+      <span class="word">значит,</span>
+      <span class="word">у</span>
+      <span class="word">меня</span>
+      <span class="word">получилось</span>
+      <span class="word">создать</span>
+      <span class="word">программу,</span>
+      <span class="word">которая</span>
+      <span class="word">позволяет</span>
+      <span class="word">тебе</span>
+      <span class="word">читать</span>
+      <span class="word">это.</span>
+      <span class="word">Я</span>
+      <span class="word">тебя</span>
+      <span class="word">очень</span>
+      <span class="word">сильно</span>
+      <span class="word">люблю</span>
+      <span class="word">и</span>
+      <span class="word">очень</span>
+      <span class="word">сильно</span>
+      <span class="word">рад,</span>
+      <span class="word">что</span>
+      <span class="word">в</span>
+      <span class="word">этот</span>
+      <span class="word">день</span>
+      <span class="word">у</span>
+      <span class="word">меня</span>
+      <span class="word">есть</span>
+      <span class="word">ты,</span>
+      <span class="word">и</span>
+      <span class="word">я</span>
+      <span class="word">могу</span>
+      <span class="word">тебя</span>
+      <span class="word">с</span>
+      <span class="word">этим</span>
+      <span class="word">днём</span>
+      <span class="word">поздравить.</span>
+      <span class="word">С</span>
+      <span class="word">8</span>
+      <span class="word">марта,</span>
+      <span class="word">солнце!</span>
+    </div>
+    <img id="photo2" src="5357229793860513824.jpg" alt="Фото" />
+  </div>
+
+  <script>
+    const startButton = document.getElementById('startButton');
+    const animationContainer = document.getElementById('animationContainer');
+    const heart = document.getElementById('heart');
+    const congratulationText = document.getElementById('congratulationText');
+    const photo2 = document.getElementById('photo2');
+
+    startButton.addEventListener('click', function() {
+      // Скрыть кнопку и приветствие
+      document.getElementById('container').style.display = 'none';
+      
+      // Показать анимацию сердца и текст поздравления
+      animationContainer.style.display = 'block';
+      heart.style.display = 'block'; // Показать сердце
+
+      // Анимация для слов
+      const words = document.querySelectorAll('.word');
+      words.forEach((word, index) => {
+        word.style.animationDelay = `${index * 0.5}s`;
+        word.style.animation = 'showWord 1s forwards';
+      });
+    });
+  </script>
+</body>
+</html>
